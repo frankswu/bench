@@ -24,6 +24,7 @@
 		3AB8DDCB17423F6E00574AF4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB8DDAA17423F6E00574AF4 /* CoreData.framework */; };
 		3AB8DDD317423F6E00574AF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8DDD117423F6E00574AF4 /* InfoPlist.strings */; };
 		3AB8DDD617423F6E00574AF4 /* benchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDD517423F6E00574AF4 /* benchTests.m */; };
+		3AB8DDE017423F9000574AF4 /* bench.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8DDDF17423F9000574AF4 /* bench.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3AB8DDD217423F6E00574AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AB8DDD417423F6E00574AF4 /* benchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = benchTests.h; sourceTree = "<group>"; };
 		3AB8DDD517423F6E00574AF4 /* benchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = benchTests.m; sourceTree = "<group>"; };
+		3AB8DDDF17423F9000574AF4 /* bench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				3AB8DDB617423F6E00574AF4 /* dispatchAppDelegate.m */,
 				3AB8DDBE17423F6E00574AF4 /* bench.xcdatamodeld */,
 				3AB8DDAD17423F6E00574AF4 /* Supporting Files */,
+				3AB8DDDF17423F9000574AF4 /* bench.c */,
 			);
 			path = bench;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				3AB8DDB317423F6E00574AF4 /* main.m in Sources */,
 				3AB8DDB717423F6E00574AF4 /* dispatchAppDelegate.m in Sources */,
 				3AB8DDC017423F6E00574AF4 /* bench.xcdatamodeld in Sources */,
+				3AB8DDE017423F9000574AF4 /* bench.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +335,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -448,6 +452,7 @@
 				3AB8DDDB17423F6E00574AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AB8DDDC17423F6E00574AF4 /* Build configuration list for PBXNativeTarget "benchTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +461,7 @@
 				3AB8DDDE17423F6E00574AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
